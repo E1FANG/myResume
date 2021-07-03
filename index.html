@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>我的简历</title>
+    <style media="print">
+      body {
+        margin: 0;
+      }
+
+      .page2 {
+        page-break-before: always;
+        margin-top: 30px;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<article>
+    <section class="bio">
+        <h1>方海笙</h1>
+        <p>
+            男 | 25岁 | 前端开发工程师 | 广州 | 本科
+        </p>
+        <p>
+            手机：15521131348 | 微信：FHS1102- | 邮箱：438283787@qq.com
+        </p>
+    </section>
+
+    <section class="projects">
+        <h2>开源项目</h2>
+        <ol>
+            <li>
+                <header>
+                    <h3>博客系统</h3>
+                    <span>
+              <a href="https://github.com/E1FANG/nextjs-typeorm-1">源码链接</a>
+              <a href="http://47.113.225.0:3000/">项目预览</a>
+            </span>
+                </header>
+                <p>
+                    这是一个基于
+                    <strong>React</strong>、<strong>TypeScript</strong>、<strong>antd</strong>、<strong>typeORM</strong>、<strong>Hooks</strong>、SSR
+                    的多页面应用。
+                </p>
+                <p>
+                    主要功能包括<strong>文章标题搜索</strong>、<strong>用户评论</strong>、登录注册、文章展示、标签分类及搜索等。
+                </p>
+                <p>
+                    该项目是我在学习新技术时，自己熟悉新知识所写的。<strong>大幅提高React的熟练度</strong>，让我能够使用node，typeORM和PSQL实现简单的后端功能，
+                    且在对于typeScript在项目中的使用，以及<strong>封装自定义hooks</strong>也有了一定的理解。
+                </p>
+            </li>
+            <li>
+                <header>
+                    <h3>Touch-UI</h3>
+                    <span>
+              <a href="https://github.com/E1FANG/Touch-UI">源码链接</a>
+              <a href="http://e1fang.gitee.io/touch-ui/">项目预览</a>
+            </span>
+                </header>
+                <p>
+                    一款基于 <strong>Vue</strong> /<strong>Webpack</strong> 的简易UI 框架。
+
+                </p>
+                <p>
+                    主要组件有按钮、Grid、Layout、弹出框、<strong>手风琴</strong>、Tabs等常用组件。
+
+                </p>
+                <p>
+                    项目的初衷是为了让自己学习各种轮子的思路，加强自己在项目中抽离一些业务组件的能力。
+                </p>
+                <p>
+                    制作过程让我对需求拆分，以及vue的各种用法更加熟练。
+                </p>
+            </li>
+        </ol>
+    </section>
+
+
+    <section class="skills">
+        <h2>技能</h2>
+        <div class="wrapper">
+            <ul>
+                <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
+                <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
+                <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
+                <li>了解React和hooks的使用</li>
+                <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+                <li>了解 <strong>TypeScript</strong> 的使用，我的博客项目就是 TS 实现的</li>
+                <li>了解 <strong>Webpack 的配置和优化</strong></li>
+                <li><a href="https://www.yuque.com/u640022">我的博客</a>，目前已有近百篇博客</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="openSource">
+        <h2>项目经历</h2>
+        <ul>
+            <li>
+                <header>
+                    <h3>报障客服系统</h3>
+                </header>
+                <p>这是一个基于vue全家桶，websocket，element-ui和Vant实现的在线客服系统</p>
+                <p>
+                    独立负责整个项目的前端部分。项目分两个端：客户端（移动端），客服端（PC端）。
+                    客服端有三个界面：正在接待客户，历史客户和待接入客户。抽象成三个客户队列，使用Vuex对这三个队列的数据操作细粒度化。
+                    主要的功能包括登入登出，发送文字图片，websocket心跳重连，<strong>多客服与多用户的互相介入</strong>，修改备注，拉取历史聊天记录以及记录同步等功能
+                </p>
+                <p>其中也抽离不少<strong>业务组件</strong>：聊天信息组件，客户、客服详情组件，聊天室卡片组件等</p>
+            </li>
+            <li class="page2">
+                <header>
+                    <h3>喜茶WiFi可视化大屏</h3>
+                </header>
+                <p>这是一个对喜茶全国门店的WiFi数据进行可视化的项目</p>
+                <p>技术栈：Vue全家桶，Echarts，element-ui，cookies</p>
+                <p>独立负责整个项目的前端部分。模块有两个：所有门店汇总和单一门店。主要的数据可视化内容：告警门店，流量消耗，连接门店WiFi人数，连接WiFi设备类型统计等。<strong>熟练使用Echart制作精美可交互图表</strong>。</p>
+                <p>实现了<strong>切换页面主题</strong>，定时刷新数据以及设置所有数据的查询时间等功能</p>
+            </li>
+            <li>
+                <header>
+                    <h3>停车场iot项目</h3>
+                </header>
+                <p>基于Vue，Vuex，Echarts，element-ui的数据可视化后台系统多页应用。</p>
+                <p>
+                    主要功能是对一段时间内停车场的温度湿度等数据进行数据可视化，以及对停车场告警信息处理的后台管理系统。
+                    主要功能：根据后端返回的行列数据生成dashboard，<a href="https://www.yuque.com/u640022/lo0oug/gm4tt4"><strong>弹性图表</strong></a>,使用element-ui实现的后台管理，图表数据导出Excel等功能。
+                </p>
+            </li>
+            <li>
+                <header>
+                    <h3>可拖拽数据可视化模板</h3>
+                </header>
+                <p>基于Vue全家桶， vue-grid-layout，Echarts，element-ui的<strong>可拖拽数据可视化系统</strong>。</p>
+                <p>项目主要是用于<strong>快速生成可视化模板</strong>给到售前的同事展示给客户看，该项目是根据后台返回的json渲染出dashboard，当用户修改dashboard时生成新的json返回给后端保存。</p>
+                <p>主要的功能有：dashboard的小面板拖拽放大缩小功能，<strong>提供小面板的自定义设置接口</strong>，如颜色，标题，单位，数据源等都是可以自己设置的。看板的类型包括：stat，折线图，柱状图，饼图等</p>
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="jobs">
+        <h2>工作经历</h2>
+        <ol>
+            <li>
+                <header>
+                    <h3> 高威电信（广州） </h3>
+                    <h4>前端开发工程师</h4>
+                    <span><time>2019年9月</time>~<time>2021年4月</time></span>
+                </header>
+                <ul>
+                    <li>
+                        独立负责前端项目开发工作，积极参与项目的优化和维护工作。
+                    </li>
+                    <li>
+                        使用Vue全家桶，Echarts开发后台管理系统，数据可视化项目
+                    </li>
+                    <li>使用websocket，Vue开发在线客服报障系统</li>
+                    <li>
+                        参与公司项目评估和需求分析，有一定的ui设计能力。
+                    </li>
+                    <li>
+                        不定时在团队内开展技术分享
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section class="others">
+        <h2>其他链接</h2>
+        <ul>
+            <li><a href="https://www.yuque.com/u640022">我的博客</a>，目前已有近100篇技术文章</li>
+            <li><a href="https://github.com/E1FANG">我的 GitHub</a>，过去三个月有 100 次提交</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>教育经历</h2>
+        <p>
+            <span><time>2015年</time>~<time>2019年</time></span>
+            广州大学华软软件学院 多媒体设计与制作 本科
+        </p>
+    </section>
+
+</article>
+</body>
+
+</html>
