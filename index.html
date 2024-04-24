@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-    <title>我的简历</title>
+    <title>方海笙(前端开发)</title>
     <style media="print">
         body {
             margin: 0;
@@ -29,8 +29,6 @@
             <p>
                 手机：15521131348 | 微信：FHS1102- | 邮箱：438283787@qq.com
             </p>
-
-            <p> Vue、React皆可，擅长组件开发、函数式编程</p>
         </section>
         <section class="education">
             <h2>教育经历</h2>
@@ -44,14 +42,15 @@
             <div class="wrapper">
                 <ul>
                     <li>熟练掌握 <strong>Vue</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
-                    <li>熟悉<strong>React</strong>和hooks的使用、掌握函数式编程</li>
+                    <li>熟悉<strong>React</strong>和hooks的使用</li>
                     <li>了解 <strong>Vue3源码</strong>、熟练掌握 <strong>Vue3</strong>的使用，包括组合式API、pinia等</li>
+                    <li>擅长<strong>组件开发、函数式编程</strong></li>
                     <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
                     <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
                     <li>熟悉 ES6+，了解 <strong>TypeScript</strong> 的使用</li>
                     <li>了解 <strong>Webpack 的配置和优化、有可视化大屏性能优化经验</strong></li>
                     <!-- <li>了解 <strong>V8</strong> 引擎</li> -->
-                    <!-- <li><a href="https://www.yuque.com/u640022">我的博客</a>，目前已有近百篇博客</li> -->
+                    <li><a href="https://www.yuque.com/u640022">我的博客</a>，目前已有近百篇博客</li>
                 </ul>
             </div>
         </section>
@@ -69,7 +68,7 @@
                         主要是对城市内不同品牌的共享单车、电子围栏做一个统一管理，车辆淤积、维修的工单系统，借由大数据分析给政府提供数据支持，决策辅助。</p>
                     <p>
                         职责：<strong>主导整个项目的前端开发，参与需求评审</strong>，在项目开发前做项目规划，通读原型、设计稿，划分出复用组件和难点，分配组员开发任务。
-                        在项目开发过程中能承担困难开发的任务和性能优化，解决十万数量点位和四万个多边形在地图上的卡顿问题。
+                        在项目开发过程中能承担困难开发的任务、通用组件和hooks的封装、性能优化，解决十万数量点位和四万个多边形在地图上的卡顿问题。
 
                     </p>
                     <p>
@@ -84,7 +83,7 @@
                         移动端h5是对接微信sdk功能，对后台下发的一些工单做巡检以及问题上报等功能。
                     </p> -->
                 </li>
-                <li>
+                <!-- <li>
                     <header>
                         <h3>数字驾驶舱（数据可视化）</h3>
                     </header>
@@ -99,28 +98,30 @@
                     <p>
                         <strong>Lighthouse Performance评分从31上升到62</strong>
                     </p>
-                </li>
+                </li> -->
                 <li>
                     <header>
                         <h3>城市综合指挥</h3>
                     </header>
-                    <p>这是一个React、TypeScript的城市应急指挥调度 后台项目</p>
+                    <p>这是一个<strong>React18、TypeScript</strong>的城市应急指挥调度 后台项目</p>
                     <p>技术栈：React，Echarts，baiduMap</p>
                     <p>
                         负责实现对人员指挥调度的地图层面功能，实现了相应的一些可复用的hooks，以及工单流程功能
                     </p>
                     <p>封装<strong>车辆轨迹播放器组件</strong>，包含轨迹播放进度条控制、轨迹路线、轨迹播放速度控制、车辆图标实时转向等功能。</p>
                 </li>
-                <!-- <li>
+                <li>
                     <header>
-                        <h3>可拖拽数据可视化模板</h3>
+                        <h3>报障客服系统</h3>
                     </header>
-                    <p>基于Vue全家桶， vue-grid-layout，Echarts，element-ui的<strong>可拖拽数据可视化系统</strong>。</p>
-                    <p>项目主要是用于<strong>快速生成可视化模板</strong>给到售前的同事展示给客户看，该项目是根据后台返回的json渲染出dashboard，当用户修改dashboard时生成新的json返回给后端保存。
+                    <p>这是一个基于<strong> Vue2，WebSocket</strong>，element-ui和Vant实现的在线客服系统</p>
+                    <p>
+                        独立负责整个项目的前端部分。项目分两个端：客户端（移动端），客服端（PC端）。
+                        客服端有三个界面：正在接待客户，历史客户和待接入客户。抽象成三个客户队列，使用Vuex对这三个队列的数据操作细粒度化。
+                        主要的功能包括登入登出，发送文字图片，<strong>WebSocket心跳重连，多客服与多用户的互相介入</strong>，修改备注，拉取历史聊天记录以及记录同步等功能
                     </p>
-                    <p>主要的功能有：dashboard的小面板拖拽放大缩小功能，<strong>提供小面板的自定义设置接口</strong>，如颜色，标题，单位，数据源等都是可以自己设置的。看板的类型包括：stat，折线图，柱状图，饼图等
-                    </p>
-                </li> -->
+                    <p>其中也抽离不少<strong>业务组件</strong>：聊天信息组件，客户、客服详情组件，聊天室卡片组件等</p>
+                </li>
             </ul>
         </section>
 
@@ -150,25 +151,21 @@
                 </li>
                 <li>
                     <header>
-                        <h3>Touch-UI</h3>
+                        <h3>Vue3响应式系统</h3>
                         <span>
-                            <a href="https://github.com/E1FANG/Touch-UI">源码链接</a>
-                            <a href="http://e1fang.gitee.io/touch-ui/">项目预览</a>
+                            <a href="https://github.com/E1FANG/Mini-Vue3/tree/main/src/reactivity">源码链接</a>
                         </span>
                     </header>
                     <p>
-                        一款基于 <strong>Vue</strong> /<strong>Webpack</strong> 的简易UI 框架。
-
+                        自己实现的一个<strong>Vue3 Reactivity 模块</strong>。
                     </p>
                     <p>
-                        主要组件有按钮、Grid、Layout、弹出框、<strong>手风琴</strong>、Tabs等常用组件。
-
+                        主要实现了 <strong>reactive、ref</strong>以及它们相关的API，
+                        包括 <strong>computed</strong>、unRef、readonly等。
+                        以及proxy和reflect实现的依赖追踪系统。
                     </p>
                     <p>
-                        项目的初衷是为了让自己学习各种轮子的思路，加强自己在项目中抽离一些业务组件的能力。
-                    </p>
-                    <p>
-                        制作过程让我对需求拆分，以及vue的各种用法更加熟练。
+                        该项目是为了让自己学习Vue3的原理，提升自己解决相关难题的能力。
                     </p>
                 </li>
             </ol>
@@ -211,7 +208,7 @@
                         <li>
                             使用Vue全家桶，Echarts开发后台管理系统，数据可视化项目
                         </li>
-                        <li>使用websocket，Vue开发在线客服报障系统</li>
+                        <li>使用WebSocket，Vue开发在线客服报障系统</li>
                     </ul>
                 </li>
             </ol>
