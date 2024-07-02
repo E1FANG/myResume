@@ -45,7 +45,7 @@
                     <li>熟悉<strong>React</strong>和hooks的使用</li>
                     <li>了解 <strong>Vue3源码</strong>、熟练掌握 <strong>Vue3</strong>的使用，包括组合式API、pinia等</li>
                     <li>擅长<strong>组件开发、函数式编程</strong></li>
-                    <li>擅长<strong>可视化技术</strong>，包括Echart，Leaflet、AMap、AntV L7等地图应用</li>
+                    <li>擅长<strong>可视化技术</strong>，包括ECharts，Leaflet、AMap、AntV L7等地图应用</li>
                     <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
                     <!-- <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li> -->
                     <li>熟悉 ES6+，了解 <strong>TypeScript</strong> 的使用</li>
@@ -62,14 +62,37 @@
             <ul>
                 <li>
                     <header>
+                        <h3>数据模型平台</h3>
+                    </header>
+                    <p>该项目是基于<strong>Vue2，AntV g6</strong>，element-ui实现的类低代码项目，
+                        主要用于让即使不懂sql的人也能快速搭建数据模型。
+                        通过拖拽不同的数据源节点、算子节点到g6的画布上，以一种数据管道的方式处理数据。
+                    </p>
+                    <p>
+                        职责：<strong>负责项目的前端开发，版本迭代，需求评审</strong>
+                    </p>
+                    <p>
+                        <strong>实现自定义节点</strong> 能根据不同的节点类型在画布上渲染不同的节点及标识出状态。
+                    </p>
+                    <p>
+                        <strong>实现画布交互事件中心</strong> 响应用户在画布上的操作，包括拖拽节点、删除节点、连线、删除连线、节点状态变化等。
+                    </p>
+                    <!-- <p>
+                    数据可视化平台是一个<strong>十万级数据量</strong>的地图可视化项目，对共享单车，电子围栏的坐标数据可视化，在地图上标出拥堵点，违停点等数据，以及各种指标图表。</p>
+                <p>
+                    移动端h5是对接微信sdk功能，对后台下发的一些工单做巡检以及问题上报等功能。
+                </p> -->
+                </li>
+                <li>
+                    <header>
                         <h3>城市共享单车管理项目</h3>
                     </header>
                     <p>该项目是基于<strong>Vue3，TypeScript，Pinia</strong>，Echarts，element-plus,
-                        Vant等技术框架的多系统系应用，包含后台管理、数据可视化辅助决策平台、移动端h5三个端。
+                        Vant等技术框架的多系统应用，<strong>包含后台管理、数据可视化大屏、移动端h5三个端</strong>。
                         主要是对城市内共享单车、电子围栏统一管理，车辆工单系统，给政府提供数据支持，决策辅助。</p>
                     <p>
                         职责：<strong>主导整个项目的前端开发，参与需求评审</strong>，在项目开发前做项目规划，通读原型、设计稿，划分出复用组件和难点，分配组员开发任务。
-                        在项目开发过程中能承担困难开发的任务、通用组件和hooks的封装、性能优化，解决十万数量点位和四万个多边形在地图上的卡顿问题。
+                        在项目开发过程中能承担困难开发的任务、<strong>对地图库进行二次封装</strong>、封装通用组件和hooks、性能优化，解决十万数量点位和四万个多边形在地图上的卡顿问题。
                     </p>
                     <p>
                         <strong>性能优化：</strong> 利用异步加载大js文件缩短白屏时间、webpack配置优化。
@@ -83,22 +106,6 @@
                         移动端h5是对接微信sdk功能，对后台下发的一些工单做巡检以及问题上报等功能。
                     </p> -->
                 </li>
-                <!-- <li>
-                    <header>
-                        <h3>数字驾驶舱（数据可视化）</h3>
-                    </header>
-                    <p>这是一个基于Vue2.7，Echart，element-ui实现的大型数据可视化项目</p>
-                    <p>
-                        职责：主导整个项目的前端开发，<strong>整体的通用组件封装</strong>，
-                        各类型图表的通用配置、3d柱状图表封装，基于svg的板块地图封装，大屏的弹窗hooks封装等。
-                    </p>
-                    <p>
-                        <strong>性能优化：</strong>多个大js文件在特定时机按指定顺序加载的异步函数封装、webpack配置优化。
-                    </p>
-                    <p>
-                        <strong>Lighthouse Performance评分从31上升到62</strong>
-                    </p>
-                </li> -->
                 <li>
                     <header>
                         <h3>城市综合指挥</h3>
@@ -109,6 +116,44 @@
                         负责实现对人员指挥调度的地图层面功能，实现了相应的一些可复用的hooks，以及工单流程功能
                     </p>
                     <p>封装<strong>车辆轨迹播放器组件</strong>，包含播放进度条控制、轨迹路线、播放速度控制、车辆图标实时转向等功能。</p>
+                </li>
+                <li>
+                    <header>
+                        <h3>东莞市城市数据可视化大屏</h3>
+                    </header>
+                    <p>这是一个基于<strong>Vue2.7、Cesium、Echarts</strong>的城市数据治理可视化项目</p>
+                    <p>技术栈：Vue2.7，Vue-router，Pinia，Echarts，Cesium，element-ui</p>
+                    <p>
+                        该项目是对东莞市的燃气、易涝点、市容、工地、城管、安全、共享单车等专题数据进行可视化分析。
+                    </p>
+                    <p>
+                        职责：负责各个专题数据的可视化实现，对地图库进行二次封装，
+                        <a class="strong"
+                            href=" https://e1fang.github.io/visualization-summary/plate-map/plate-map-base.html"
+                            target="_blank">
+                            封装东莞镇街地图轮播组件
+                        </a>，
+                        <a href="https://e1fang.github.io/visualization-summary/chart/3d-bar-chart.html"
+                            target="_blank">
+                            封装3D Echarts柱状图
+                        </a>，
+                        <a href="https://e1fang.github.io/visualization-summary/chart/3d-pie-chart.html"
+                            target="_blank">
+                            3D hightChart饼图等可视化组件
+                        </a>。
+                    </p>
+                </li>
+                <li>
+                    <header>
+                        <h3>佛山市城市管理决策驾驶舱</h3>
+                    </header>
+                    <p>这是一个基于<strong>Vue2、高德地图、Echarts</strong>的城市数据治理可视化项目</p>
+                    <p>技术栈：Vue2，Vue-router，Vuex，Echarts，高德地图，L7，element-ui</p>
+                    <p>
+                        该项目是对佛山市的市容、工地、城管、交通、安全、环境等专题数据进行可视化分析。
+                    </p>
+                    <p>
+                        职责：负责各个专题数据的可视化实现，对地图库进行二次封装，封装高德地图弹窗组件。</p>
                 </li>
                 <li>
                     <header>
@@ -132,8 +177,8 @@
                     <header>
                         <h3>博客系统</h3>
                         <span>
-                            <a href="https://github.com/E1FANG/nextjs-typeorm-1">源码链接</a>
-                            <a href="http://110.41.171.41:3000/">项目预览</a>
+                            <a href="https://github.com/E1FANG/nextjs-typeorm-1" target="_blank">源码链接</a>
+                            <a href="http://110.41.171.41:3000/" target="_blank">项目预览</a>
                         </span>
                     </header>
                     <p>
@@ -151,9 +196,26 @@
                 </li>
                 <li>
                     <header>
+                        <h3>可视化组件</h3>
+                        <span>
+                            <a href="https://github.com/E1FANG/visualization-summary" target="_blank">源码链接</a>
+                            <a href="https://e1fang.github.io/visualization-summary/" target="_blank">项目预览</a>
+                        </span>
+                    </header>
+                    <p>
+                        这是一个基于
+                        <strong>VitePress</strong>、<strong>Vue3</strong>写的一个可视化技术文档。
+                    </p>
+                    <p>
+                        主要对做过的可视化项目进行了总结，包括三维Echarts图表封装，用svg实现一个易用、可拓展、高交互性的板块地图等。
+                    </p>
+                </li>
+                <li>
+                    <header>
                         <h3>Vue3响应式系统</h3>
                         <span>
-                            <a href="https://github.com/E1FANG/Mini-Vue3/tree/main/src/reactivity">源码链接</a>
+                            <a href="https://github.com/E1FANG/Mini-Vue3/tree/main/src/reactivity"
+                                target="_blank">源码链接</a>
                         </span>
                     </header>
                     <p>
@@ -176,8 +238,23 @@
             <ol>
                 <li>
                     <header>
+                        <h3> 美亚柏科 </h3>
+                        <h4>前端开发工程师</h4>
+                        <span><time>2024年6月</time>~<time>至今</time></span>
+                    </header>
+                    <ul>
+                        <li>
+                            负责数据模型平台项目前端开发工作，积极参与项目的优化和维护工作。
+                        </li>
+                        <li>
+                            负责公司项目版本迭代升级和需求分析，使用Vue2、AntV g6开发 类低代码数据中台项目
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <header>
                         <h3> 城云科技 </h3>
-                        <h4>前端开发工程师、项目负责人</h4>
+                        <h4>前端开发工程师</h4>
                         <span><time>2021年7月</time>~<time>2024年1月</time></span>
                     </header>
                     <ul>
